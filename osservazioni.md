@@ -40,6 +40,7 @@ Modifichiamo il file sorgente e compiliamo nuovamente hello.c con il comando mak
 
 Quali file ho incluso nel commit e perché:
 
+hello.c e osservazioni.md e commit appena svolta
 Come ho verificato che la versione provata sia presente su GitHub:
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
