@@ -15,13 +15,26 @@ saper spiegare le prove svolte.
 
 Comando di compilazione:
 
+gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
+
 Comando di esecuzione e risultato osservato:
+
+./hello con risultato: Hello, computional physics!
+
+./hello > output.txt con risultato la creazione di un file in cui è riportato l'output di ./hello
 
 Che cosa ho capito su sorgente ed eseguibile:
 
+Diamo dei comando al calcolatore attraverso un file sorgente (in linguagio di programmazione), che viene compilato con i comandi sovrastanti; ne risulta un file che il compilatore è in grado di 'eseguire'(in linguaggio macchina. e' importante ricordare che dopo aver apporto modifiche al file sorgente è necessario compilare nuovamente affinché l'eseguibile le rifletta. (hello.c è sorgente, hello è eseguibile)
+
+
 Output richiesto e comportamento del programma prima della modifica:
 
+
+
 Esito dopo la modifica e spiegazione della correzione:
+
+Modifichiamo il file sorgente e compiliamo nuovamente hello.c con il comando make saltando in questo modo il doppio step altrimenti richiesto; eseguendo ora ./hello  otteniamo l'output modificato
 
 ## Step 1 — Git
 
