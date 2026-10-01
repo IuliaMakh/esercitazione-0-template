@@ -44,7 +44,11 @@ hello.c e osservazioni.md e commit appena svolta
 
 Come ho verificato che la versione provata sia presente su GitHub:
 
+Confrontare  l'identificativo dell'ultimo commit con quello mostrato da git log.
+
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+
+Prima di git pull non c'e cambiamento, dopo c'e, non serve un nuovo clone perché locale repositorio già creato e collegato al server remoto
 
 ## Step 2 — Eco: prima prova
 
